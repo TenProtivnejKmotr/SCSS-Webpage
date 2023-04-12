@@ -1,0 +1,58 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+header {
+  background-color: #ff9100;
+  color: #000;
+  text-align: center;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header h1 {
+  margin-top: 0;
+  line-height: 50px;
+}
+
+main .about-page h2, main .about-page p {
+  color: #000;
+}
+main .theme {
+  width: 49.45%;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+}
+main .theme img {
+  width: 70%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+main .theme a {
+  border-radius: 12px;
+  text-decoration: none;
+  background: #ff9100;
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #000;
+  transition: 0.3s;
+}
+main .theme a:hover {
+  background: #cc7400;
+}
+
+footer {
+  background-color: #ff9100;
+  color: #000;
+  text-align: center;
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+footer p {
+  line-height: 50px;
+}/*# sourceMappingURL=style.css.map */

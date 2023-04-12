@@ -1,0 +1,24 @@
+$theme: light;
+
+// Theme: light
+
+// === COLORS ===
+$body-background: #eee;
+$header-footer-background: #ff9100;
+$text-header-footer-color: #000;
+$text-color: #000;
+$basic-border: 2px solid #000;
+
+// === SIZES ===
+$header-height: 50px;
+$footer-height: 50px;
+$border-round: 10px;
+
+// Theme: dark
+
+@if $theme == dark {
+    $body-background: #111;
+    $text-color: #fff;
+    $basic-border: 2px solid #fff;
+    $header-footer-background: darken(#ff9100, 10%);
+}

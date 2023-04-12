@@ -1,0 +1,32 @@
+@mixin container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@mixin header-footer-style {
+    background-color: $header-footer-background;
+    color: $text-header-footer-color;
+    text-align: center;
+}
+
+@mixin theme-box {
+    width: 6 * col-width();
+}
+
+@mixin border($radius: 12px) {
+    border-radius: $radius;
+}
+
+@mixin button {
+    @include border;
+    text-decoration: none;
+    background: $header-footer-background;
+    color: #fff;
+    padding: 10px 15px;
+    border: $basic-border;
+    transition: 0.3s;
+
+    &:hover {
+        background: darken($header-footer-background, 10%);
+    }
+}
